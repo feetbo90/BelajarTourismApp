@@ -14,3 +14,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Tourism App"
 include(":app")
+include(":mylibrary")
+include(":core")
