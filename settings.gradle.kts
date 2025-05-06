@@ -16,3 +16,4 @@ rootProject.name = "Tourism App"
 include(":app")
 include(":mylibrary")
 include(":core")
+include(":maps")
