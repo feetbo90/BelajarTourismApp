@@ -14,8 +14,10 @@ import com.dicoding.tourismapp.MyApplication
 import com.dicoding.tourismapp.core.ui.TourismAdapter
 import com.dicoding.tourismapp.databinding.FragmentFavoriteBinding
 import com.dicoding.tourismapp.detail.DetailTourismActivity
+import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
+@AndroidEntryPoint
 class FavoriteFragment : Fragment() {
 
     private var _binding: FragmentFavoriteBinding? = null
